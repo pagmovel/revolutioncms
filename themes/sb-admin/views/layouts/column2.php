@@ -1,0 +1,130 @@
+<?php $this->beginContent('//layouts/main'); ?>
+	
+			<!-- Sidebar -->
+	      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	        <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index.php">PROJETOS</a>
+	        </div>
+
+	        <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse navbar-ex1-collapse">
+	          <ul class="nav navbar-nav side-nav">
+	            <li class="active"><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+	            <li><a href="<?php echo Yii::app()->theme->baseUrl; ?>/charts.html"><i class="fa fa-bar-chart-o"></i> Charts</a></li>
+	            <li><a href="index.php?r=projetos/create"><i class="fa fa-bar-chart-o"></i> Novo Projeto</a></li>
+	            <li><a href="index.php?r=tarefas/create"><i class="fa fa-bar-chart-o"></i> Nova Tarefa</a></li>
+	            <li><a href="<?php echo Yii::app()->theme->baseUrl; ?>/tables.html"><i class="fa fa-table"></i> Tables</a></li>
+	            <li><a href="<?php echo Yii::app()->theme->baseUrl; ?>/forms.html"><i class="fa fa-edit"></i> Forms</a></li>
+	            <li><a href="<?php echo Yii::app()->theme->baseUrl; ?>/typography.html"><i class="fa fa-font"></i> Typography</a></li>
+	            <li><a href="<?php echo Yii::app()->theme->baseUrl; ?>/bootstrap-elements.html"><i class="fa fa-desktop"></i> Bootstrap Elements</a></li>
+	            <li><a href="<?php echo Yii::app()->theme->baseUrl; ?>/bootstrap-grid.html"><i class="fa fa-wrench"></i> Bootstrap Grid</a></li>
+	            <li><a href="<?php echo Yii::app()->theme->baseUrl; ?>/blank-page.html"><i class="fa fa-file"></i> Blank Page</a></li>
+	            <li class="dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dropdown <b class="caret"></b></a>
+	              <ul class="dropdown-menu">
+	                <li><a href="#">Dropdown Item</a></li>
+	                <li><a href="#">Another Item</a></li>
+	                <li><a href="#">Third Item</a></li>
+	                <li><a href="#">Last Item</a></li>
+	              </ul>
+	            </li>
+	          </ul>
+	          <!-- MENU SUPERIOR -->
+	          <ul class="nav navbar-nav navbar-right navbar-user">
+	            <li class="dropdown messages-dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <span class="badge">7</span> <b class="caret"></b></a>
+	              <ul class="dropdown-menu">
+	                <li class="dropdown-header">7 New Messages</li>
+	                <li class="message-preview">
+	                  <a href="#">
+	                    <span class="avatar"><img src="http://placehold.it/50x50"></span>
+	                    <span class="name">John Smith:</span>
+	                    <span class="message">Hey there, I wanted to ask you something...</span>
+	                    <span class="time"><i class="fa fa-clock-o"></i> 4:34 PM</span>
+	                  </a>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="message-preview">
+	                  <a href="#">
+	                    <span class="avatar"><img src="http://placehold.it/50x50"></span>
+	                    <span class="name">John Smith:</span>
+	                    <span class="message">Hey there, I wanted to ask you something...</span>
+	                    <span class="time"><i class="fa fa-clock-o"></i> 4:34 PM</span>
+	                  </a>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="message-preview">
+	                  <a href="#">
+	                    <span class="avatar"><img src="http://placehold.it/50x50"></span>
+	                    <span class="name">John Smith:</span>
+	                    <span class="message">Hey there, I wanted to ask you something...</span>
+	                    <span class="time"><i class="fa fa-clock-o"></i> 4:34 PM</span>
+	                  </a>
+	                </li>
+	                <li class="divider"></li>
+	                <li><a href="#">View Inbox <span class="badge">7</span></a></li>
+	              </ul>
+	            </li>
+	            <li class="dropdown alerts-dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> Alerts <span class="badge">3</span> <b class="caret"></b></a>
+	              <ul class="dropdown-menu">
+	                <li><a href="#">Default <span class="label label-default">Default</span></a></li>
+	                <li><a href="#">Primary <span class="label label-primary">Primary</span></a></li>
+	                <li><a href="#">Success <span class="label label-success">Success</span></a></li>
+	                <li><a href="#">Info <span class="label label-info">Info</span></a></li>
+	                <li><a href="#">Warning <span class="label label-warning">Warning</span></a></li>
+	                <li><a href="#">Danger <span class="label label-danger">Danger</span></a></li>
+	                <li class="divider"></li>
+	                <li><a href="#">View All</a></li>
+	              </ul>
+	            </li>
+	            <li class="dropdown user-dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+	              <ul class="dropdown-menu">
+	                <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+	                <li><a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge">7</span></a></li>
+	                <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+	                <li class="divider"></li>
+	                <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+	              </ul>
+	            </li>
+	          </ul>
+	          -->
+	        </div><!-- /.navbar-collapse -->
+	      </nav>
+	      <div id="page-wrapper">
+			<?php echo $content; ?>
+	      </div>
+			<!--<div class="well">
+				<?php 
+				/*
+				$this->widget('booster.widgets.TbMenu', array(
+				    'type'=>'list',
+				    'items' => array(
+						array('label'=>'Clientes', 'itemOptions'=>array('class'=>'nav-header')),
+							array('label'=>'Gerenciar Clientes', 'url'=>array('/cliente/admin'),'icon'=>'icon-home'),
+							array('label'=>'Novo Cliente', 'url'=>array('/cliente/create'),'icon'=>'icon-home'),
+
+						array('label'=>'Tipos Cliente', 'itemOptions'=>array('class'=>'nav-header')),
+							array('label'=>'Gerenciar', 'url'=>array('/clientetipo/admin'),'icon'=>'icon-home'),
+							array('label'=>'Novo', 'url'=>array('/clientetipo/create'),'icon'=>'icon-home'),
+
+						array('label'=>'Produtos', 'itemOptions'=>array('class'=>'nav-header')),
+							array('label'=>'Gerenciar', 'url'=>array('/produto/admin'),'icon'=>'icon-home'),
+							array('label'=>'Novo', 'url'=>array('/produto/create'),'icon'=>'icon-home'),
+
+						array('label'=>'Pedidos', 'itemOptions'=>array('class'=>'nav-header')),
+							array('label'=>'Gerenciar', 'url'=>array('/pedido/admin'),'icon'=>'icon-home'),
+							array('label'=>'Novo', 'url'=>array('/pedido/create'),'icon'=>'icon-home'),
+				    )
+				));
+				*/?>
+			</div>-->
+<?php $this->endContent(); ?>
